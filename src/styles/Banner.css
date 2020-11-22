@@ -1,0 +1,22 @@
+* {
+  font-family: "B612 Mono", monospace;
+}
+.banner {
+  width: 100wh;
+  height: 100vh;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 3px 2px 2px rgb(71, 71, 71);
+  background-color: #ff5353;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.banner h1 {
+  font-size: 400%;
+  font-weight: 400;
+}
