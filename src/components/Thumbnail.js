@@ -1,9 +1,12 @@
 import React from "react";
 import "../styles/Thumbnail.css";
 
-export default function Thumbnail({ title, description, image }) {
+export default function Thumbnail({ title, description, image, url }) {
+  const handleUrl = () => {
+    window.open(url, "_blank");
+  };
   return (
-    <div className="thumbnail">
+    <div className="thumbnail" onClick={url && handleUrl}>
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-12">

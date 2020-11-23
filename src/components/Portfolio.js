@@ -12,6 +12,7 @@ export default function Portfolio() {
         <h3>Portfolio</h3>
         <div className="container">
           <Thumbnail
+            url={"https://github.com/Dongnamu/coms30115"}
             image={raytracer}
             title={"Raytracer and Rasteriser"}
             description={
@@ -27,6 +28,7 @@ export default function Portfolio() {
             }
           />
           <Thumbnail
+            url={"https://github.com/MilkyLatte/space_royale"}
             image={space_royale}
             title={"Space Royale"}
             description={
@@ -59,6 +61,7 @@ export default function Portfolio() {
             }
           />
           <Thumbnail
+            url={"https://dl.acm.org/doi/10.1145/3335595.3335641"}
             image={punch_learning}
             title={"Punch Learning"}
             description={

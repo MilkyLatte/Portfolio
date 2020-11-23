@@ -1,5 +1,6 @@
 import React from "react";
-
+import logo from "../assets/logo.png";
+import "../styles/Navbar.css";
 export default function Navbar() {
   const [colorClass, setColorClass] = React.useState("navbar-dark");
 
@@ -21,8 +22,9 @@ export default function Navbar() {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
         let href = document.querySelector(anchor.getAttribute("href"));
+        console.log(window.pageYOffset + href?.getBoundingClientRect().top);
         window.scroll({
-          top: href?.getBoundingClientRect().top - 100,
+          top: window.pageYOffset + href?.getBoundingClientRect().top - 100,
           behavior: "smooth",
         });
       });
@@ -38,7 +40,7 @@ export default function Navbar() {
       }}
     >
       <a className="navbar-brand ml-3" href="/">
-        <img src="./logo.svg" className="logo" alt=""></img>
+        <img src={logo} className="logo-img" alt=""></img>
       </a>
       <button
         className="navbar-toggler"
