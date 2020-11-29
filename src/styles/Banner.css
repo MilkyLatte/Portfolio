@@ -6,7 +6,7 @@
   height: 100vh;
   color: #fff;
   font-weight: bold;
-  text-shadow: 3px 2px 2px rgb(71, 71, 71);
+  text-shadow: 1px 1px 1px rgba(53, 53, 53, 0.2);
   background-color: #ff5353;
 }
 

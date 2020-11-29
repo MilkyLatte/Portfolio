@@ -66,15 +66,15 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Portfolio">
-              Portfolio
+            <a className="nav-link" href="#Work">
+              Work
             </a>
           </li>
-          {/* <li className="nav-item">
-            <a className="nav-link" href="#Contact">
-              Contact
+          <li className="nav-item">
+            <a className="nav-link" href="#Projects">
+              Projects
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

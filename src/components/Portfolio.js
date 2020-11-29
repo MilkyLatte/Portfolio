@@ -7,9 +7,9 @@ import punch_learning from "../assets/punch-learning.png";
 
 export default function Portfolio() {
   return (
-    <div id="Portfolio">
+    <div id="Projects">
       <div className="container">
-        <h3>Portfolio</h3>
+        <h3>Projects</h3>
         <div className="container">
           <Thumbnail
             url={"https://github.com/Dongnamu/coms30115"}
